@@ -1,0 +1,1 @@
+package com.seuprojeto.kanban.domain; public enum StatusProjeto { A_INICIAR, EM_ANDAMENTO, ATRASADO, CONCLUIDO }

@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://app1.cdxsistemas.com.br:5432/codex
+      SPRING_DATASOURCE_USERNAME: codex
+      SPRING_DATASOURCE_PASSWORD: Ric@7901
+      SECURITY_JWT_SECRET: YXZhaWwtdW0tc2VndW5kby1zZWdyZWRvLXN1YS1jaGF2ZS1iYXNlNjQ=
+    ports:
+      - "8080:8080"

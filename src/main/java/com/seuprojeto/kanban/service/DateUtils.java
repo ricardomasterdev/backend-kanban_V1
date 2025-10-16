@@ -1,0 +1,1 @@
+package com.seuprojeto.kanban.service; import java.time.*; public final class DateUtils { private DateUtils(){} public static int daysBetween(LocalDate s, LocalDate e){ return (int) java.time.temporal.ChronoUnit.DAYS.between(s,e);} public static LocalDate today(){ return LocalDate.now(); } }

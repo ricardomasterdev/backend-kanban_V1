@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://app1.cdxsistemas.com.br:5432/codex
+    username: codex
+    password: Ric@7901
+  jpa:
+    hibernate:
+     ddl-auto: update   # cria/atualiza as tabelas automaticamente
+    properties:
+      hibernate:
+        format_sql: true
+        default_schema: public
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: when_authorized
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+security:
+  jwt:
+    secret: "YXZhaWwtdW0tc2VndW5kby1zZWdyZWRvLXN1YS1jaGF2ZS1iYXNlNjQ="  # base64
+    expiration: 28800 # 8h

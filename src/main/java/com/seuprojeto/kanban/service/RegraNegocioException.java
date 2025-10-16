@@ -1,0 +1,1 @@
+package com.seuprojeto.kanban.service; public class RegraNegocioException extends RuntimeException { public RegraNegocioException(String m){ super(m);} }

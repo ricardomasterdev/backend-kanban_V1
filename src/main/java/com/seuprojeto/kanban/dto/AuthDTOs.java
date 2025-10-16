@@ -1,0 +1,1 @@
+package com.seuprojeto.kanban.dto; public class AuthDTOs { public record LoginRequest(String email,String password) {} public record TokenResponse(String token,long expiresIn) {} }
