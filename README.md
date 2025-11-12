@@ -356,8 +356,8 @@ npm run dev:hml           # (ou) build/hospedar: npm run build:hml && npm run pr
 ---
 
 ## 📦 Repositórios
-- **Backend**: https://github.com/ricardomasterdev/backend-kanban
-- **Frontend**: https://github.com/ricardomasterdev/frontend-Kanba
+- **Backend**: https://github.com/ricardomasterdev/backend-kanban_V1
+- **Frontend**: https://github.com/ricardomasterdev/frontend-Kanba_V1
 
 ---
 
